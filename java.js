@@ -1,3 +1,4 @@
+console.log("new year new me")
 const BookInBtn = document.querySelector('.btn');
 const name = document.querySelector('.name');
 let URL = 'https://calendly.com/ahmed24012007/meeting';
