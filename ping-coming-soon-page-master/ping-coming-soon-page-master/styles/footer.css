@@ -1,0 +1,31 @@
+ul li{
+    list-style: none;
+    
+}
+
+.social_links{
+    text-decoration: none;
+    padding-block: 7px;
+    padding-inline: 7px;
+    border: 1px solid var(--Blue_200);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.social_icons{
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Copyright{
+    
+    color: var(--Gray_400);
+    font-family: var(--first-family);
+    font-weight: 300;
+}

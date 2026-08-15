@@ -1,0 +1,44 @@
+.field_name{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 13px;
+}
+.name{
+    inline-size: 270px;
+    padding-block: 13px;
+    border: 1px solid var(--Blue_200);
+    border-radius: 40px;
+    padding-left: 30px;
+}
+.btn{
+    background-color: var(--Blue_500);
+    color: white;
+    font-family: var(--first-family);
+    padding-inline: 115px;
+    padding-block: 13px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 10px 20px 0 var(--Blue_200);
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+.btn:hover{
+    background-color: var(--Blue_600);
+    transform: scale(1.01);
+}
+
+.name::placeholder{
+    color: var(--Blue_200);
+    font-size: 17px;
+    font-family: var(--first-family);
+    font-weight: 300;
+}
+.image_wrapper{
+    margin-top: 50px;
+    padding-inline: 170px;
+    padding-block: 90px;
+    background-image: url(/ping-coming-soon-page-master/images/illustration-dashboard.png);
+    background-size: cover;
+}
