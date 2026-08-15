@@ -1,0 +1,9 @@
+:root{
+--Blue_500: hsl(223, 87%, 63%);
+--Blue_600: hsl(223, 85%, 46%);
+--Blue_200: hsl(223, 100%, 88%);
+--Red_400: hsl(354, 100%, 66%);
+--Gray_400: hsl(0, 0%, 59%);
+--Blue_950: hsl(209, 33%, 12%);
+--first-family: 'dm_mono' , sans-serif;
+}
